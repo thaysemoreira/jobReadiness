@@ -18,5 +18,18 @@ struct Body: Codable {
     let subtitle: String?
     let price: Double
     let thumbnail: String
+    let warranty: String
+    let availableQuantity: Int
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case title
+        case subtitle
+        case price
+        case thumbnail
+        case warranty
+        case availableQuantity = "available_quantity"
+    }
 }
+
 

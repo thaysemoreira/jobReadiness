@@ -14,7 +14,7 @@ struct Result: Codable {
 struct ResultElement: Codable {
     let id: String
     let name: String
-    let categoryId: String
+    let categoryId: String?
     let categoryName: String
     let attributes: [Attributes]
     

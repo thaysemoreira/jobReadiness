@@ -9,7 +9,7 @@ import Foundation
 
 class ServiceApi {
     
-    private static let token = "APP_USR-8236877123889977-070413-74d0c8b025b782d5ebfca5cab3078416-1008512634"
+    private static let token = "APP_USR-8236877123889977-070612-15528421306eaba869fa571b26971f0a-1008512634"
     private static let basePath = "https://api.mercadolibre.com"
     
     private static let configuration: URLSessionConfiguration = {
